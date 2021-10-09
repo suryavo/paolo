@@ -10,7 +10,7 @@ public class PaoloApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PaoloApplication.class, args);
-		System.out.println("Hello");
+		System.out.println("Hello paolo");
 	}
 
 }

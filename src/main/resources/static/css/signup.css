@@ -1,0 +1,57 @@
+body{
+	background:rgb(251, 251, 251)!important;
+}
+
+.maincontainer{
+	background: white;
+	min-height: 750px;
+	max-height: 600px;
+	display: flex;
+	margin: auto;
+	margin-top: 90px;
+	width: 1100px;
+	border-radius: 10px;
+	box-shadow: 0px 20px 25px rgb(192, 192, 192);
+}
+
+.imagecontainer{
+
+	flex: 3;
+}
+.formcontainer{
+	flex: 2;
+	padding: 50px 70px 80px 70px;
+}
+.form-group{
+	padding: 10px 0px 10px 0px;
+}
+
+.form-control{
+	background: none;
+	border: none;
+  	border-bottom: 1.5px solid rgb(0, 0, 0);
+  	border-radius: 0px;
+  	padding: 0;
+}
+
+
+.signup-image{
+	display: inline-block;
+	height: 750px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.hl{
+	color: red;
+	opacity: 1;
+	margin-top: -3px;
+	margin-bottom: 8px;
+}
+
+.signin-signup-btn{
+	box-shadow: 0px 10px 25px rgb(132, 193, 255);
+	width:100%;
+}
